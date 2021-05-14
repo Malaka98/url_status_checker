@@ -80,7 +80,7 @@ exports.check = async (reqq, resp, next) => {
             
               resolve("Active");
             
-          }, 12000);
+          }, 8000);
         } else {
           resolve("Inactive");
         }
