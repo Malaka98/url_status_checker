@@ -12,7 +12,7 @@ const haltOnTimedout = (req, res, next) => {
     }
 }
 
-app.use(timeout('20s'));
+app.use(timeout('150s'));
 app.use(haltOnTimedout);
 app.use('/', require('./routes/check'));
 
