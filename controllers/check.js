@@ -55,7 +55,7 @@ var respons = [
   },
 ];
 
-const testUrl = ["fossnsbm.org", "forum.fossnsbm.org"];
+const testUrl = ["fossnsbm.org"];
 
 exports.check = async (reqq, resp, next) => {
   const statusCheck = (url) => {
